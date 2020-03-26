@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Tugas-4-WEB/static/css/main.d1c6881f.chunk.css",
+    "main.js": "/Tugas-4-WEB/static/js/main.fcb79f4f.chunk.js",
+    "main.js.map": "/Tugas-4-WEB/static/js/main.fcb79f4f.chunk.js.map",
+    "runtime-main.js": "/Tugas-4-WEB/static/js/runtime-main.e373c869.js",
+    "runtime-main.js.map": "/Tugas-4-WEB/static/js/runtime-main.e373c869.js.map",
+    "static/css/2.1bd2ab2f.chunk.css": "/Tugas-4-WEB/static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.8113d7c8.chunk.js": "/Tugas-4-WEB/static/js/2.8113d7c8.chunk.js",
+    "static/js/2.8113d7c8.chunk.js.map": "/Tugas-4-WEB/static/js/2.8113d7c8.chunk.js.map",
+    "index.html": "/Tugas-4-WEB/index.html",
+    "precache-manifest.e7e422546cd99d2401b039509f175e6c.js": "/Tugas-4-WEB/precache-manifest.e7e422546cd99d2401b039509f175e6c.js",
+    "service-worker.js": "/Tugas-4-WEB/service-worker.js",
+    "static/css/2.1bd2ab2f.chunk.css.map": "/Tugas-4-WEB/static/css/2.1bd2ab2f.chunk.css.map",
+    "static/css/main.d1c6881f.chunk.css.map": "/Tugas-4-WEB/static/css/main.d1c6881f.chunk.css.map",
+    "static/js/2.8113d7c8.chunk.js.LICENSE.txt": "/Tugas-4-WEB/static/js/2.8113d7c8.chunk.js.LICENSE.txt",
+    "static/media/picture.svg": "/Tugas-4-WEB/static/media/picture.d1ae1327.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e373c869.js",
+    "static/css/2.1bd2ab2f.chunk.css",
+    "static/js/2.8113d7c8.chunk.js",
+    "static/css/main.d1c6881f.chunk.css",
+    "static/js/main.fcb79f4f.chunk.js"
+  ]
+}
