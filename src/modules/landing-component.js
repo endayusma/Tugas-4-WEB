@@ -15,7 +15,6 @@ class LandingComponent extends Component{
         */}
         return(
             <Layout className="landing-container">
-                <Navbar/>  {/* ini merupakan component navbar yang kita import dari folder layout yang ada di common*/}
                 <Content style={{ overflow: "hidden" }}> {/* ini merupakan component content yang sudah di define sebelumnya*/}
                     <Row className="section-container">
                         <Col lg={12} md={12} sm={12}>
@@ -31,7 +30,7 @@ class LandingComponent extends Component{
                             <Row>
                                 <Col span={24}>
                                     <div className="title-container">
-                                        <span className="text-soft-blue title-biggest bold">Hello, I'am</span>
+                                        <span className="text-soft-blue title-biggest bold">Hollaa!!:) saya ni</span>
                                         <br/>
                                         <span className="text-soft-blue title-big bold">Enda Nur Awlia Yusma</span>
                                     </div>
@@ -45,7 +44,7 @@ class LandingComponent extends Component{
                                         />
                                     </div>
                                     <div className="description-container desc-medium">
-                                        If your sky are dark, I'll be your star
+                                        
                                         
                                     </div>
                                 </Col>

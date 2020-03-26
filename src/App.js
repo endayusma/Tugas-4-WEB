@@ -1,46 +1,22 @@
 import React from 'react';
-import { Layout, Menu, Breadcrumb } from 'antd';
-//import { Card } from 'antd';
-import logo from './logo.svg';
-import './App.css';
-import { Card } from 'antd';
-const { Header, Content, Footer } = Layout;
+import ReactDOM from 'react-dom';
+import {BrowserRouter} from "react-router-dom";
+import '../src/assets/css/App.css';
+import Navbar from './common/layout/navbar-landing';
+import Routing from './common/router/router'
 
-const cardData = [
-  {
-    nama : "Enda Yusma",
-    job : "Mahasiswa"
-  },
-  {
-    nama : "Geza Ramda Ciptaan",
-  },
-  {
-    nama : "Lina Zulfikar",
-    
-  }
-]
-
-function App() {
+class App extends React.Component {
   
- 
 
-  return (
-    
-
-    <div className="site-card-border-less-wrapper">
-      {
-        cardData.map( data =>
-        
-    <Card title="Nama" bordered={false} style={{ width: 300 }}>
-      <p>{data.nama}</p>
-   
-      
-    </Card>
- 
-      )
-    }
-    </div>
-  );
+  render(){
+    return (
+      <div className="App">
+        <Navbar/>
+        <Routing/>
+      </div>
+    );
+  }
+  
 }
 
 export default App;
